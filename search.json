@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Question: What marketing question does this answer? (one sentence)\nApproach: The dataset, the SQL you wrote to shape it, and the Tableau dashboard that tells the story.\nFinding: The headline result and what a marketer would do with it."
+  },
+  {
+    "objectID": "projects.html#project-1-title",
+    "href": "projects.html#project-1-title",
+    "title": "Projects",
+    "section": "",
+    "text": "Question: What marketing question does this answer? (one sentence)\nApproach: The dataset, the SQL you wrote to shape it, and the Tableau dashboard that tells the story.\nFinding: The headline result and what a marketer would do with it."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I’m a UC San Diego Business Psychology graduate focused on consumer insights and marketing analytics. My work combines market research and behavioral frameworks with applied data skills."
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "About",
+    "section": "Skills",
+    "text": "Skills\n\nAnalytics: SQL, R (tidyverse), Tableau, Excel\nMethods: A/B testing & field experiments, causal inference, survey design, customer segmentation\nLanguages: English, Spanish"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About",
+    "section": "Contact",
+    "text": "Contact\n\nEmail: nathaliemaldonado04@gmail.com\nLinkedIn\nGitHub"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nathalie Maldonado",
+    "section": "",
+    "text": "Business Psychology graduate turning consumer data into marketing decisions. I pair behavioral frameworks with hands-on analytics — SQL, R, and Tableau — to find what drives customer behavior and what a team should do about it. Fluent in Spanish and English."
+  },
+  {
+    "objectID": "index.html#featured-project",
+    "href": "index.html#featured-project",
+    "title": "Nathalie Maldonado",
+    "section": "Featured project",
+    "text": "Featured project\n[Project 1 title] — one sentence on the business question and the headline finding. See the full project →"
+  }
+]
