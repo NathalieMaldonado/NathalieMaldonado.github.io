@@ -1,0 +1,14 @@
+---
+title: "Nathalie Maldonado"
+subtitle: "Consumer Insights & Marketing Analytics"
+---
+
+Business Psychology graduate turning consumer data into marketing decisions.
+I pair behavioral frameworks with hands-on analytics — SQL, R, and Tableau —
+to find what drives customer behavior and what a team should do about it.
+Fluent in Spanish and English.
+
+## Featured project
+
+**[Project 1 title]** — one sentence on the business question and the headline
+finding. [See the full project →](projects.qmd)

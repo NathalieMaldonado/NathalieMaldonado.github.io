@@ -1,0 +1,20 @@
+---
+title: "About"
+---
+
+I'm a UC San Diego Business Psychology graduate focused on consumer insights
+and marketing analytics. My work combines market research and behavioral
+frameworks with applied data skills.
+
+## Skills
+
+- **Analytics:** SQL, R (tidyverse), Tableau, Excel
+- **Methods:** A/B testing & field experiments, causal inference, survey design,
+  customer segmentation
+- **Languages:** English, Spanish
+
+## Contact
+
+- Email: nathaliemaldonado04@gmail.com
+- [LinkedIn](https://linkedin.com/in/nathalie-maldonado)
+- [GitHub](https://github.com/MaldonadoNathalie)

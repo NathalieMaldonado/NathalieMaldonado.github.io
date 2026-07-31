@@ -1,0 +1,30 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Nathalie Maldonado"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects.qmd
+        text: Projects
+      - href: about.qmd
+        text: About 
+    right: 
+      - icon: linkedin
+        href: https://linkedin.com/in/nathalie-maldonado
+      - icon: github
+        href: https://github.com/MaldonadoNathalie
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+

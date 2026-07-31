@@ -1,0 +1,14 @@
+---
+title: "Projects"
+---
+
+## Project 1 — [Title]
+
+**Question:** What marketing question does this answer? (one sentence)
+
+**Approach:** The dataset, the SQL you wrote to shape it, and the Tableau
+dashboard that tells the story.
+
+**Finding:** The headline result and what a marketer would do with it.
+
+<!-- Tableau embed goes here once your dashboard is published -->
