@@ -4,48 +4,69 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Question: What marketing question does this answer? (one sentence)\nApproach: The dataset, the SQL you wrote to shape it, and the Tableau dashboard that tells the story.\nFinding: The headline result and what a marketer would do with it."
+    "text": "Data Science with AI · UC San Diego · June 2026\nQuestion. After Coca-Cola Zero’s 2017 and 2021 reformulations, what were consumers actually complaining about — and did complaint volume change?\nApproach. Pulled a 57,000-post consumer corpus and classified every post into 16 complaint categories with an R and LLM API pipeline, using JSON-schema enforced outputs, retry logic, and corpus trimming to control cost. Hand-coding the same corpus at one minute per post would have taken roughly 950 analyst-hours.\nFinding. Event-study difference-in-differences showed how complaint volume shifted around each reformulation, and which categories drove the change.\nRecommendation. Delivered as a one-page memo written for brand leadership rather than for analysts."
   },
   {
-    "objectID": "projects.html#project-1-title",
-    "href": "projects.html#project-1-title",
+    "objectID": "projects.html#consumer-complaint-classification-at-scale-coca-cola-zero",
+    "href": "projects.html#consumer-complaint-classification-at-scale-coca-cola-zero",
     "title": "Projects",
     "section": "",
-    "text": "Question: What marketing question does this answer? (one sentence)\nApproach: The dataset, the SQL you wrote to shape it, and the Tableau dashboard that tells the story.\nFinding: The headline result and what a marketer would do with it."
+    "text": "Data Science with AI · UC San Diego · June 2026\nQuestion. After Coca-Cola Zero’s 2017 and 2021 reformulations, what were consumers actually complaining about — and did complaint volume change?\nApproach. Pulled a 57,000-post consumer corpus and classified every post into 16 complaint categories with an R and LLM API pipeline, using JSON-schema enforced outputs, retry logic, and corpus trimming to control cost. Hand-coding the same corpus at one minute per post would have taken roughly 950 analyst-hours.\nFinding. Event-study difference-in-differences showed how complaint volume shifted around each reformulation, and which categories drove the change.\nRecommendation. Delivered as a one-page memo written for brand leadership rather than for analysts."
+  },
+  {
+    "objectID": "projects.html#ergonomic-pen-concept-end-to-end-market-research",
+    "href": "projects.html#ergonomic-pen-concept-end-to-end-market-research",
+    "title": "Projects",
+    "section": "Ergonomic Pen Concept — End-to-End Market Research",
+    "text": "Ergonomic Pen Concept — End-to-End Market Research\nApplied Market Research · UC San Diego · 2025 · Conducted for an early-stage consumer product concept\nQuestion. Is there demand for an ergonomic pen concept, who would buy it, and what would they pay?\nApproach. Fielded a 500+ respondent Qualtrics survey measuring feature preference and willingness to pay inside a $17.5B global writing-instrument market, benchmarked against BIC, Pilot, and Paper Mate.\nFinding. Segmented respondents across demographic, psychographic, and occupational dimensions to identify which groups carried real willingness to pay.\nRecommendation. Delivered a SWOT, a segmentation map, and the positioning statement “Precision Meets Comfort.”"
+  },
+  {
+    "objectID": "projects.html#causal-evaluation-of-a-crisis-response-program-denver-star",
+    "href": "projects.html#causal-evaluation-of-a-crisis-response-program-denver-star",
+    "title": "Projects",
+    "section": "Causal Evaluation of a Crisis-Response Program — Denver STAR",
+    "text": "Causal Evaluation of a Crisis-Response Program — Denver STAR\nBusiness Analytics · UC San Diego · April 2026 · Team of 3\nQuestion. Does dispatching mental-health clinicians instead of police actually reduce low-level offenses?\nApproach. Difference-in-differences across 386,865 incident records, 78 neighborhoods, and 44 months — separating 8 treated neighborhoods from 70 controls and modeling COVID-19 time trends explicitly so the pandemic shock couldn’t be misread as program effect.\nFinding. Peer-reviewed across UC San Diego Rady and Northwestern Kellogg sections."
+  },
+  {
+    "objectID": "projects.html#pay-equity-analysis-nfl-salaries-vs.-regional-cost-of-living",
+    "href": "projects.html#pay-equity-analysis-nfl-salaries-vs.-regional-cost-of-living",
+    "title": "Projects",
+    "section": "Pay Equity Analysis — NFL Salaries vs. Regional Cost of Living",
+    "text": "Pay Equity Analysis — NFL Salaries vs. Regional Cost of Living\nBusiness Analytics · UC San Diego · March 2026 · Team of 5\nQuestion. Do teams in expensive cities pay quarterbacks more?\nApproach. Merged NFL contract data with U.S. regional cost-of-living indices, then re-ran every model with and without outlier treatment.\nFinding. No meaningful correlation — a null result.\nRecommendation. Advised against cost-of-living adjustments in cap strategy rather than overstating a weak correlation."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "I’m a UC San Diego Business Psychology graduate focused on consumer insights and marketing analytics. My work combines market research and behavioral frameworks with applied data skills."
+    "text": "I’m a UC San Diego Business Psychology graduate focused on consumer insights and market research. My work pairs behavioral frameworks and survey methodology with applied analytics, turning what consumers say and do into a recommendation a team can act on.\nWhile earning my degree I was also the primary caregiver for my family, so instead of internships I took freelance research and data work alongside a full course load."
   },
   {
     "objectID": "about.html#skills",
     "href": "about.html#skills",
     "title": "About",
     "section": "Skills",
-    "text": "Skills\n\nAnalytics: SQL, R (tidyverse), Tableau, Excel\nMethods: A/B testing & field experiments, causal inference, survey design, customer segmentation\nLanguages: English, Spanish"
+    "text": "Skills\n\nConsumer research: Survey design, customer segmentation, willingness-to-pay measurement, competitive benchmarking, positioning\nMeasurement: A/B testing, difference-in-differences, regression discontinuity, synthetic control, bias auditing\nTools: R (tidyverse, httr2), SQL, Qualtrics, Quarto, Git, Excel\nAI: LLM API integration, JSON-schema structured outputs, cost-optimized retry pipelines\nLanguages: English, Spanish"
   },
   {
     "objectID": "about.html#contact",
     "href": "about.html#contact",
     "title": "About",
     "section": "Contact",
-    "text": "Contact\n\nEmail: nathaliemaldonado04@gmail.com\nLinkedIn\nGitHub"
+    "text": "Contact\n\nnathaliemaldonado04@gmail.com\nLinkedIn\nGitHub"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Nathalie Maldonado",
     "section": "",
-    "text": "Business Psychology graduate turning consumer data into marketing decisions. I pair behavioral frameworks with hands-on analytics — SQL, R, and Tableau — to find what drives customer behavior and what a team should do about it. Fluent in Spanish and English."
+    "text": "Business Psychology graduate (UC San Diego) working in consumer insights and market research. I design surveys, segment customers, and analyze consumer text at scale — then write the recommendation someone can actually act on.\nBased in Oceanside, CA. Fluent in Spanish and English."
   },
   {
-    "objectID": "index.html#featured-project",
-    "href": "index.html#featured-project",
+    "objectID": "index.html#featured-work",
+    "href": "index.html#featured-work",
     "title": "Nathalie Maldonado",
-    "section": "Featured project",
-    "text": "Featured project\n[Project 1 title] — one sentence on the business question and the headline finding. See the full project →"
+    "section": "Featured work",
+    "text": "Featured work\nConsumer Complaint Classification at Scale - Coca-Cola Zero\nClassified 57,000+ consumer posts into 16 complaint categories using an R and LLM API pipeline, then measured how complaint volume shifted around two product reformulations. Delivered as a one-page recommendation for brand leadership.\nRead the full project →\n\nDownload my resume (PDF) · LinkedIn · GitHub"
   }
 ]

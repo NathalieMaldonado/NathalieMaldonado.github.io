@@ -1,14 +1,26 @@
 ---
 title: "Nathalie Maldonado"
-subtitle: "Consumer Insights & Marketing Analytics"
+subtitle: "Consumer Insights & Market Research"
 ---
 
-Business Psychology graduate turning consumer data into marketing decisions.
-I pair behavioral frameworks with hands-on analytics — SQL, R, and Tableau —
-to find what drives customer behavior and what a team should do about it.
-Fluent in Spanish and English.
+Business Psychology graduate (UC San Diego) working in consumer insights and
+market research. I design surveys, segment customers, and analyze consumer text
+at scale — then write the recommendation someone can actually act on.
 
-## Featured project
+Based in Oceanside, CA. Fluent in Spanish and English.
 
-**[Project 1 title]** — one sentence on the business question and the headline
-finding. [See the full project →](projects.qmd)
+## Featured work
+
+**Consumer Complaint Classification at Scale - Coca-Cola Zero**
+
+Classified 57,000+ consumer posts into 16 complaint categories using an R and
+LLM API pipeline, then measured how complaint volume shifted around two product
+reformulations. Delivered as a one-page recommendation for brand leadership.
+
+[Read the full project →](projects.qmd)
+
+---
+
+[Download my resume (PDF)](Nathalie_Maldonado_InsightsAnalyst.pdf) ·
+[LinkedIn](https://linkedin.com/in/nathalie-maldonado) ·
+[GitHub](https://github.com/NathalieMaldonado)

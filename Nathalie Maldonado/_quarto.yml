@@ -16,13 +16,12 @@ website:
       - icon: linkedin
         href: https://linkedin.com/in/nathalie-maldonado
       - icon: github
-        href: https://github.com/MaldonadoNathalie
+        href: https://github.com/NathalieMaldonado
 
 format:
   html:
     theme:
       - cosmo
-      - brand
     css: styles.css
     toc: true
 

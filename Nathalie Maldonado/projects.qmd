@@ -2,13 +2,75 @@
 title: "Projects"
 ---
 
-## Project 1 — [Title]
+## Consumer Complaint Classification at Scale — Coca-Cola Zero
 
-**Question:** What marketing question does this answer? (one sentence)
+*Data Science with AI · UC San Diego · June 2026*
 
-**Approach:** The dataset, the SQL you wrote to shape it, and the Tableau
-dashboard that tells the story.
+**Question.** After Coca-Cola Zero's 2017 and 2021 reformulations, what were
+consumers actually complaining about — and did complaint volume change?
 
-**Finding:** The headline result and what a marketer would do with it.
+**Approach.** Pulled a 57,000-post consumer corpus and classified every post
+into 16 complaint categories with an R and LLM API pipeline, using JSON-schema
+enforced outputs, retry logic, and corpus trimming to control cost. Hand-coding
+the same corpus at one minute per post would have taken roughly 950 analyst-hours.
 
-<!-- Tableau embed goes here once your dashboard is published -->
+**Finding.** Event-study difference-in-differences showed how complaint volume
+shifted around each reformulation, and which categories drove the change.
+
+**Recommendation.** Delivered as a one-page memo written for brand leadership
+rather than for analysts.
+
+<!-- Tableau embed goes here after Phase 3 -->
+
+---
+
+## Ergonomic Pen Concept — End-to-End Market Research
+
+*Applied Market Research · UC San Diego · 2025 · Conducted for an early-stage
+consumer product concept*
+
+**Question.** Is there demand for an ergonomic pen concept, who would buy it,
+and what would they pay?
+
+**Approach.** Fielded a 500+ respondent Qualtrics survey measuring feature
+preference and willingness to pay inside a $17.5B global writing-instrument
+market, benchmarked against BIC, Pilot, and Paper Mate.
+
+**Finding.** Segmented respondents across demographic, psychographic, and
+occupational dimensions to identify which groups carried real willingness to pay.
+
+**Recommendation.** Delivered a SWOT, a segmentation map, and the positioning
+statement "Precision Meets Comfort."
+
+---
+
+## Causal Evaluation of a Crisis-Response Program — Denver STAR
+
+*Business Analytics · UC San Diego · April 2026 · Team of 3*
+
+**Question.** Does dispatching mental-health clinicians instead of police
+actually reduce low-level offenses?
+
+**Approach.** Difference-in-differences across 386,865 incident records, 78
+neighborhoods, and 44 months — separating 8 treated neighborhoods from 70
+controls and modeling COVID-19 time trends explicitly so the pandemic shock
+couldn't be misread as program effect.
+
+**Finding.** Peer-reviewed across UC San Diego Rady and Northwestern Kellogg
+sections.
+
+---
+
+## Pay Equity Analysis — NFL Salaries vs. Regional Cost of Living
+
+*Business Analytics · UC San Diego · March 2026 · Team of 5*
+
+**Question.** Do teams in expensive cities pay quarterbacks more?
+
+**Approach.** Merged NFL contract data with U.S. regional cost-of-living
+indices, then re-ran every model with and without outlier treatment.
+
+**Finding.** No meaningful correlation — a null result.
+
+**Recommendation.** Advised against cost-of-living adjustments in cap strategy
+rather than overstating a weak correlation.
