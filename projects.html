@@ -112,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/MaldonadoNathalie"> <i class="bi bi-github" role="img">
+    <a class="nav-link" href="https://github.com/NathalieMaldonado"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
@@ -132,7 +132,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#project-1-title" id="toc-project-1-title" class="nav-link active" data-scroll-target="#project-1-title">Project 1 — [Title]</a></li>
+  <li><a href="#consumer-complaint-classification-at-scale-coca-cola-zero" id="toc-consumer-complaint-classification-at-scale-coca-cola-zero" class="nav-link active" data-scroll-target="#consumer-complaint-classification-at-scale-coca-cola-zero">Consumer Complaint Classification at Scale — Coca-Cola Zero</a></li>
+  <li><a href="#ergonomic-pen-concept-end-to-end-market-research" id="toc-ergonomic-pen-concept-end-to-end-market-research" class="nav-link" data-scroll-target="#ergonomic-pen-concept-end-to-end-market-research">Ergonomic Pen Concept — End-to-End Market Research</a></li>
+  <li><a href="#causal-evaluation-of-a-crisis-response-program-denver-star" id="toc-causal-evaluation-of-a-crisis-response-program-denver-star" class="nav-link" data-scroll-target="#causal-evaluation-of-a-crisis-response-program-denver-star">Causal Evaluation of a Crisis-Response Program — Denver STAR</a></li>
+  <li><a href="#pay-equity-analysis-nfl-salaries-vs.-regional-cost-of-living" id="toc-pay-equity-analysis-nfl-salaries-vs.-regional-cost-of-living" class="nav-link" data-scroll-target="#pay-equity-analysis-nfl-salaries-vs.-regional-cost-of-living">Pay Equity Analysis — NFL Salaries vs.&nbsp;Regional Cost of Living</a></li>
   </ul>
 </nav>
     </div>
@@ -158,12 +161,40 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="project-1-title" class="level2">
-<h2 class="anchored" data-anchor-id="project-1-title">Project 1 — [Title]</h2>
-<p><strong>Question:</strong> What marketing question does this answer? (one sentence)</p>
-<p><strong>Approach:</strong> The dataset, the SQL you wrote to shape it, and the Tableau dashboard that tells the story.</p>
-<p><strong>Finding:</strong> The headline result and what a marketer would do with it.</p>
-<!-- Tableau embed goes here once your dashboard is published -->
+<section id="consumer-complaint-classification-at-scale-coca-cola-zero" class="level2">
+<h2 class="anchored" data-anchor-id="consumer-complaint-classification-at-scale-coca-cola-zero">Consumer Complaint Classification at Scale — Coca-Cola Zero</h2>
+<p><em>Data Science with AI · UC San Diego · June 2026</em></p>
+<p><strong>Question.</strong> After Coca-Cola Zero’s 2017 and 2021 reformulations, what were consumers actually complaining about — and did complaint volume change?</p>
+<p><strong>Approach.</strong> Pulled a 57,000-post consumer corpus and classified every post into 16 complaint categories with an R and LLM API pipeline, using JSON-schema enforced outputs, retry logic, and corpus trimming to control cost. Hand-coding the same corpus at one minute per post would have taken roughly 950 analyst-hours.</p>
+<p><strong>Finding.</strong> Event-study difference-in-differences showed how complaint volume shifted around each reformulation, and which categories drove the change.</p>
+<p><strong>Recommendation.</strong> Delivered as a one-page memo written for brand leadership rather than for analysts.</p>
+<!-- Tableau embed goes here after Phase 3 -->
+<hr>
+</section>
+<section id="ergonomic-pen-concept-end-to-end-market-research" class="level2">
+<h2 class="anchored" data-anchor-id="ergonomic-pen-concept-end-to-end-market-research">Ergonomic Pen Concept — End-to-End Market Research</h2>
+<p><em>Applied Market Research · UC San Diego · 2025 · Conducted for an early-stage consumer product concept</em></p>
+<p><strong>Question.</strong> Is there demand for an ergonomic pen concept, who would buy it, and what would they pay?</p>
+<p><strong>Approach.</strong> Fielded a 500+ respondent Qualtrics survey measuring feature preference and willingness to pay inside a $17.5B global writing-instrument market, benchmarked against BIC, Pilot, and Paper Mate.</p>
+<p><strong>Finding.</strong> Segmented respondents across demographic, psychographic, and occupational dimensions to identify which groups carried real willingness to pay.</p>
+<p><strong>Recommendation.</strong> Delivered a SWOT, a segmentation map, and the positioning statement “Precision Meets Comfort.”</p>
+<hr>
+</section>
+<section id="causal-evaluation-of-a-crisis-response-program-denver-star" class="level2">
+<h2 class="anchored" data-anchor-id="causal-evaluation-of-a-crisis-response-program-denver-star">Causal Evaluation of a Crisis-Response Program — Denver STAR</h2>
+<p><em>Business Analytics · UC San Diego · April 2026 · Team of 3</em></p>
+<p><strong>Question.</strong> Does dispatching mental-health clinicians instead of police actually reduce low-level offenses?</p>
+<p><strong>Approach.</strong> Difference-in-differences across 386,865 incident records, 78 neighborhoods, and 44 months — separating 8 treated neighborhoods from 70 controls and modeling COVID-19 time trends explicitly so the pandemic shock couldn’t be misread as program effect.</p>
+<p><strong>Finding.</strong> Peer-reviewed across UC San Diego Rady and Northwestern Kellogg sections.</p>
+<hr>
+</section>
+<section id="pay-equity-analysis-nfl-salaries-vs.-regional-cost-of-living" class="level2">
+<h2 class="anchored" data-anchor-id="pay-equity-analysis-nfl-salaries-vs.-regional-cost-of-living">Pay Equity Analysis — NFL Salaries vs.&nbsp;Regional Cost of Living</h2>
+<p><em>Business Analytics · UC San Diego · March 2026 · Team of 5</em></p>
+<p><strong>Question.</strong> Do teams in expensive cities pay quarterbacks more?</p>
+<p><strong>Approach.</strong> Merged NFL contract data with U.S. regional cost-of-living indices, then re-ran every model with and without outlier treatment.</p>
+<p><strong>Finding.</strong> No meaningful correlation — a null result.</p>
+<p><strong>Recommendation.</strong> Advised against cost-of-living adjustments in cap strategy rather than overstating a weak correlation.</p>
 
 
 </section>
